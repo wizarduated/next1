@@ -3,10 +3,5 @@ echo "Start"
 while (true) 
 do
  ./zaloop.sh;
- sleep 75; 
+ sleep 180; 
 done;
-
-
-
-
-
