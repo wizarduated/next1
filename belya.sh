@@ -15,7 +15,7 @@ chmod 777 ./*.sh
 cp /tmp/next1/poler /usr/bin/
 sleep 3
 
-sudo dos2unix time1.sh
+sudo dos2unix loop.sh
 sudo dos2unix zaloop.sh
 
 touch /tmp/at.txt
@@ -23,4 +23,4 @@ chmod +x /tmp/at.txt
 echo 'sudo systemctl reboot -f' >> /tmp/at.txt
 sudo at now + 8 hours < /tmp/at.txt
 
-sudo ./time1.sh
+sudo ./loop.sh
